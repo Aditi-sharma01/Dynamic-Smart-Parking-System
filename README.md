@@ -25,7 +25,7 @@ Detects parking spaces as:
 
 ### Input Image
 
-<img src="slot_detection/test1.jpg" width="700">
+<img src="slot_detection/test2.jpg" width="700">
 
 ### Detection Output
 
@@ -39,7 +39,7 @@ Detects vehicle number plates using YOLOv8.
 
 ### Input Image
 
-<img src="number_plate_detection/test1.jpg" width="700">
+<img src="number_plate_detection/test2.jpg" width="700">
 
 ### Detection Output
 
@@ -63,7 +63,7 @@ If a car-sized slot contains one bike, the remaining area can still accommodate 
 
 ### Input Image
 
-<img src="dynamic_parking_detection/test1.jpg" width="700">
+<img src="dynamic_parking_detection/test2.jpg" width="700">
 
 ### Detection Output
 
