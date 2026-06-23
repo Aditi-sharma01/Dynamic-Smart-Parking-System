@@ -1,0 +1,8 @@
+train: license_plate_dataset/train/images
+val: license_plate_dataset/valid/images
+test: license_plate_dataset/test/images
+
+nc: 1
+
+names:
+  0: License_Plate

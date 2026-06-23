@@ -1,0 +1,10 @@
+train: dynamic_parking_dataset/train/images
+val: dynamic_parking_dataset/valid/images
+test: dynamic_parking_dataset/test/images
+
+nc: 3
+
+names:
+  0: empty_slot
+  1: occupied_slot
+  2: partiallyoccupied_slot

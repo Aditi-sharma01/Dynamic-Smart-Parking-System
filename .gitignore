@@ -1,0 +1,103 @@
+# ============================================
+# Virtual Environments
+# ============================================
+yoloenv/
+venv/
+env/
+ENV/
+**/yoloenv/
+**/venv/
+**/env/
+
+# ============================================
+# Python Cache
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+
+# ============================================
+# Training Outputs
+# ============================================
+runs/
+**/runs/
+
+# ============================================
+# Datasets
+# ============================================
+
+# Slot Detection Dataset
+slot_detection/parking_dataset/
+
+# Number Plate Dataset
+number_plate_detection/license_plate_dataset/
+
+# Dynamic Parking Dataset
+dynamic_parking_detection/dynamic_parking_dataset/
+
+# Generic dataset folders
+parking_dataset/
+license_plate_dataset/
+dynamic_parking_dataset/
+dataset/
+datasets/
+data/
+
+# ============================================
+# Trained Models / Weights
+# ============================================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+
+# ============================================
+# Dataset Archives
+# ============================================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ============================================
+# Logs
+# ============================================
+*.log
+
+# ============================================
+# VS Code
+# ============================================
+.vscode/
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+
+# ============================================
+# Keep Important Files
+# ============================================
+!README.md
+!.gitignore
+!*.py
+!*.yaml
+!*.yml
+!*.jpg
+!*.jpeg
+!*.png
